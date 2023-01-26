@@ -1,0 +1,79 @@
+img{
+    width: 15em;
+}
+#maincontainer{    
+    text-align: center;
+    background-color: white;   
+}
+#innercontainer{
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    background-color: transparent;
+}
+#labelcontainer{
+    text-align: start;
+    margin: 0%;
+    font-size: x-small;
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: white;
+    color: black;
+}
+#picturediv{
+    background-color: white;
+}
+#informationdiv{
+    border-top: 1px solid rgb(223, 220, 220);
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: start;
+    margin-left: 5px;
+}
+#informationdiv h2{
+    margin-bottom: 0%;
+}
+#informationdiv p{
+    font-size: x-small;
+    margin-top: 0%;
+}
+#label{
+    font-size: small;
+    font-weight: bold;
+}
+#Gamelength{
+    width: 40px;
+}
+#workingbuttons{
+    padding-top: 10px;
+    display: flex;
+}
+#workingbuttons button{
+    background-color: transparent;
+    border: none;
+}
+#workingbuttons button:nth-last-of-type(3){
+    background-color: rgb(0, 232, 0);
+    font-size: x-small;
+    padding: 10px;
+    color: white;
+}
+#workingbuttons button:nth-last-of-type(2){
+    background-color: rgb(21, 0, 255);
+    font-size: x-small;
+    padding: 10px;
+    color: white;
+}
+#workingbuttons button:nth-last-of-type(1){
+    background-color: rgb(255, 0, 0);
+    font-size: x-small;
+    color: white;
+    padding: 10px;
+}
+#p1score{
+    display: inline;
+}
+#p2score{
+    display: inline;
+}
+#playerscore{
+    display: inline;
+}

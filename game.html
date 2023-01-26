@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap');
+        </style>
+</head>
+<body>
+    <div id="maincontainer">
+        <div id="innercontainer">
+            <div id="picturediv">
+                <img src="https://wallpaperaccess.com/full/1526717.png" alt="">
+            <p id="labelcontainer">Ping Pong Score Keeper</p>
+            <div id="informationdiv">
+                <h2 id="p1score">0</h2>
+                <h2 id="playerscore" >to</h2>
+                <h2 id="p2score">0</h2>
+                <p>Use the button below to keep a score.</p>
+                <label for="" id="label">Playing to</label>
+                <input type="number" id="Gamelength" min="0" step="1">
+            </div>
+            <div id="workingbuttons">
+                <button style="flex-grow: 0" id="p1">+1 Player 1</button>
+                <button style="flex-grow: 1" id="p2">+1 Player 2</button>
+                <button style="flex-grow: 2" id="reset">reset</button>
+            </div>
+            </div>
+            
+        </div>   
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
